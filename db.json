@@ -85,7 +85,7 @@
 	{
 		"id": "g1",
 		"name": "Work",
-		"type": ""
+		"type": "",
 		"members": ["p1", "p2"]
 	}
 
