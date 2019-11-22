@@ -1,6 +1,27 @@
 {
 	"expenses": [
 	{
+		"id": "e0001",
+		"type": "",
+		"description": "",
+		"amount": "570.00",
+		"date": "10-NOV-2019",
+		"paidBy": "p1",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p1",
+				"splitType": "percent",
+				"split": "50"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"splitPercent": "50"
+			}
+		]
+	},
+	{
 		"id": "e0002",
 		"type": "",
 		"description": "",
@@ -41,7 +62,8 @@
 				"splitPercent": "80"
 			}
 		]
-	}
+	},
+
 ],
 
 "persons":[
@@ -56,14 +78,14 @@
 		"name":"Sushma",
 		"email":"",
 		"mobile":""
-	}
+	},
 ],
 
 "groups":[
 	{
 		"id": "g1",
 		"name": "Work",
-		"type": "",
+		"type": ""
 		"members": ["p1", "p2"]
 	}
 
