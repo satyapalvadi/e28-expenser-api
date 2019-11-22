@@ -62,8 +62,7 @@
 				"splitPercent": "80"
 			}
 		]
-	},
-
+	}
 ],
 
 "persons":[
@@ -88,7 +87,6 @@
 		"type": "",
 		"members": ["p1", "p2"]
 	}
-
 ],
 
 "runExpensesFor": 
