@@ -1,26 +1,77 @@
 {
-	"expenses": 
-  [
-    {
-      "id": "e0001",
-      "type": "",
-      "description": "",
-      "amount": "20.00",
-      "date": "12-NOV-2019",
-      "paidBy": "p1",
-      "split":"yes",
-      "splitters":[
-        {
-          "pid": "p1",
-          "splitType": "percent",
-          "split": "50"
-        },
-        {
-          "pid": "p2",
-          "splitType": "percent",
-          "splitPercent": "50"
-        }
-      ]
-    }
- ]
+	"expenses": [
+	{
+		"id": "e0002",
+		"type": "",
+		"description": "",
+		"amount": "50.00",
+		"date": "15-NOV-2019",
+		"paidBy": "p1",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p1",
+				"splitType": "percent",
+				"split": "40"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"splitPercent": "60"
+			}
+		]
+	},
+	{
+		"id": "e0003",
+		"type": "",
+		"description": "",
+		"amount": "200.00",
+		"date": "19-NOV-2019",
+		"paidBy": "p2",
+		"split":"yes",
+		"splitters":[
+			{
+				"pid": "p1",
+				"splitType": "percent",
+				"split": "20"
+			},
+			{
+				"pid": "p2",
+				"splitType": "percent",
+				"splitPercent": "80"
+			}
+		]
+	},
+
+],
+
+"persons":[
+	{
+		"id":"p1",
+		"name":"Satya",
+		"email":"",
+		"mobile":""
+	},
+	{
+		"id":"p2",
+		"name":"Sushma",
+		"email":"",
+		"mobile":""
+	},
+],
+
+"groups":[
+	{
+		"id": "g1",
+		"name": "Work",
+		"type": ""
+		"members": ["p1", "p2"]
+	}
+
+],
+
+"runExpensesFor": 
+{ 
+	"id": "p1"
+}
 }
