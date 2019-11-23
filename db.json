@@ -17,7 +17,7 @@
 			{
 				"pid": "p2",
 				"splitType": "percent",
-				"splitPercent": "50"
+				"split": "50"
 			}
 		]
 	},
@@ -38,7 +38,7 @@
 			{
 				"pid": "p2",
 				"splitType": "percent",
-				"splitPercent": "60"
+				"split": "60"
 			}
 		]
 	},
@@ -59,7 +59,7 @@
 			{
 				"pid": "p2",
 				"splitType": "percent",
-				"splitPercent": "80"
+				"split": "80"
 			}
 		]
 	}
