@@ -12,12 +12,17 @@
 			{
 				"pid": "p1",
 				"splitType": "percent",
-				"split": "50"
+				"split": "40"
 			},
 			{
 				"pid": "p2",
 				"splitType": "percent",
-				"split": "50"
+				"split": "30"
+			},
+						{
+				"pid": "p3",
+				"splitType": "percent",
+				"split": "30"
 			}
 		]
 	},
@@ -27,7 +32,7 @@
 		"description": "",
 		"amount": "50",
 		"date": "15-NOV-2019",
-		"paidBy": "p1",
+		"paidBy": "p2",
 		"split":"yes",
 		"splitters":[
 			{
@@ -48,11 +53,11 @@
 		"description": "",
 		"amount": "200",
 		"date": "19-NOV-2019",
-		"paidBy": "p2",
+		"paidBy": "p3",
 		"split":"yes",
 		"splitters":[
 			{
-				"pid": "p1",
+				"pid": "p3",
 				"splitType": "percent",
 				"split": "20"
 			},
