@@ -113,6 +113,13 @@
 		"shareOfExpenses":"300",
 		"receive":"200",
 		"hasToPay":"0"
+	},
+	{
+		"id": "p2",
+		"outOfPocket":"500",
+		"shareOfExpenses":"300",
+		"receive":"200",
+		"hasToPay":"50"
 	}
 ]
 }
