@@ -121,7 +121,7 @@
 		"receive":"0",
 		"hasToPay":"200"
 	},
-		{
+	{
 		"id": "p3",
 		"outOfPocket":"150",
 		"shareOfExpenses":"300",
