@@ -120,6 +120,13 @@
 		"shareOfExpenses":"30",
 		"receive":"20",
 		"hasToPay":"50"
+	},	
+	{
+		"id": "p3",
+		"outOfPocket":"50",
+		"shareOfExpenses":"30",
+		"receive":"20",
+		"hasToPay":"50"
 	}
 ]
 }
